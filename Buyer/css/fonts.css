@@ -1,0 +1,16 @@
+@font-face {
+    font-family:lato-bold; /* Имя шрифта */
+    src: url(../fonts/Lato-Bold.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family:lato-light; /* Имя шрифта */
+    src: url(../fonts/Lato-Light.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family:lato-regular; /* Имя шрифта */
+    src: url(../fonts/Lato-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family:lato-black; /* Имя шрифта */
+    src: url(../fonts/Lato-Black.ttf); /* Путь к файлу со шрифтом */
+   }

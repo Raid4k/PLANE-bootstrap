@@ -1,0 +1,115 @@
+/*Body*/
+
+body{
+    background: url(../img/back.png)  75% 50%  no-repeat fixed;
+    background-size: cover;
+    background-color: #181d35;
+    position: relative;
+    height: 100vh;
+    text-align: center;
+}
+body:before {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 100%;
+    vertical-align: middle;    
+}
+
+/*Header logo*/
+
+.logo {
+	margin-top:20px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/*Main container*/
+
+ .container{
+    width: 1200px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.text {
+    width: 50%;
+    text-align: left;
+}
+.btn {
+    font-family:'lato-bold',sans-serif;
+    color:#f2f1f0;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #efbf64;
+    line-height: 80px;
+    padding: 10px 40px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 8px 0px;
+}
+.btn:hover{ color:#efbf64;
+    background-color:#f2f1f0;
+}
+
+/*Fonts*/
+
+h1,h2,h3{
+    color:#f2f1f0;
+    padding-top:10px;
+}
+h1{
+    font-family:'lato-bold',sans-serif;
+    font-size:150px;
+    font-weight: 600;
+}
+h2{
+    font-family:'lato-regular',sans-serif;
+    font-size: 30px;
+}
+h3{
+    font-family:'lato-light',sans-serif;
+    font-size: 22px;
+    
+}
+
+/*@Media*/
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url(../img/mobile_back.jpg);
+}
+}
+@media all and (max-width: 1199px) {
+    .container {
+        width: 900px;
+    }
+}
+@media all and (max-width: 989px) {
+    .container {
+        width: 700px;
+    }
+
+     .text {
+        width: 75%;
+    }
+}
+@media all and (max-width: 767px) {
+    .container {
+        width: 400px;
+    }
+
+    .text {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .container {
+        width: 280px;
+    }
+}
